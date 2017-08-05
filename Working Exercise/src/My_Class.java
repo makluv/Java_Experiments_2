@@ -7,6 +7,8 @@ public class My_Class {
 	      
 	      // Accessing the display_Inner() method.
 	      outer.display_Inner();
+	      
+	      //tHIS IS A TEST
 	   }
 	
 }
