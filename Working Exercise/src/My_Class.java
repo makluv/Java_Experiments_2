@@ -8,6 +8,8 @@ public class My_Class {
 	      // Accessing the display_Inner() method.
 	      outer.display_Inner();
 	      
+	      System.out.println("dgmwrimgewrg");
+	      
 	      //tHIS IS A TEST
 	   }
 	
