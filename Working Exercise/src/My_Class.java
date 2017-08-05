@@ -6,9 +6,11 @@ public class My_Class {
 	      FirstInnerClass outer = new FirstInnerClass();
 	      
 	      // Accessing the display_Inner() method.
-	      outer.display_Inner();
+	      //outer.display_Inner();
+	     
+	      FirstInnerClass.Inner_Demo inner = outer.new Inner_Demo();
+	      inner.print();
 	      
-	      System.out.println("dgmwrimgewrg");
 	      
 	      //tHIS IS A TEST
 	   }
