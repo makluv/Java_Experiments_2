@@ -1,34 +1,18 @@
 
-public class Main2 implements ITelephone {
+public class Main2 {
 	
-	private int myNumber;
-	private boolean isRinging;
-	@Override
-	public void powerOn() {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {
 		
-	}
-	@Override
-	public void dial(int phoneNumber) {
-		// TODO Auto-generated method stub
+		ITelephone timsPhone;
+		timsPhone = new DeskPhone(123456);
+		timsPhone.powerOn();
+		timsPhone.callPhone(123456);
+		timsPhone.answer();
 		
+		timsPhone = new MobilePhone(23465);
+		timsPhone.powerOn();
+		timsPhone.callPhone(4324);
+		timsPhone.answer();
 	}
-	@Override
-	public void answer() {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public boolean callPhone(int phoneNumber) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-	@Override
-	public boolean isRinging() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-	
-	
 
 }
